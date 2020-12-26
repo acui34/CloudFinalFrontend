@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Praticed</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top">
+      <a class="navbar-brand" href="#">Practiced.com</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Library <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Coach</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="practice.html">Practice</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Profile</a>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </nav>
+
+    <main role="main" class="bg-light">
+
+      <div class="starter-template">
+        <h1>Find Music</h1>
+        <p class="lead">What's in your mind?</p>
+        <div class="bar">
+          <input id="searchInput" class="searchbar" type="text" title="Search" placeholder="Enter artist name or song title" onkeypress="postSearch" >
+          <a id="record" href="#"> <img class="voice" src="https://img.icons8.com/windows/32/000000/voice-recorder.png" title="Search by voice"></a>
+        </div>
+      </div>
+
+      <div id="results">
+
+        <div id="resultheading" class="result-heading">
+          <div id="item-artist" class="item-part">Artist</div>
+          <div id="item-song" class="item-part">Song Name</div>
+          <div id="item-difficulty" class="item-part">Difficulty</div>
+        </div>
+
+        <div id="item">
+          <div id="item-artist" class="item-part">N. Paganini</div>
+          <div id="item-song" class="item-part"><a href="item.html">Paganini Caprice No.5</a></div>
+          <div id="item-difficulty" class="item-part">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+        </div>
+        
+        <div id="item">
+          <div id="item-artist" class="item-part">Oasis</div>
+          <div id="item-song" class="item-part">Wonderwall</div>
+          <div id="item-difficulty" class="item-part">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </div>
+        </div>
+
+        <div id="item">
+          <div id="item-artist" class="item-part">Oasis</div>
+          <div id="item-song" class="item-part">Wonderwall</div>
+          <div id="item-difficulty" class="item-part">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </div>
+        </div>
+
+        <div id="item">
+          <div id="item-artist" class="item-part">Oasis</div>
+          <div id="item-song" class="item-part">Wonderwall</div>
+          <div id="item-difficulty" class="item-part">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </div>
+        </div>
+        
+      </div>
+
+    </main><!-- /.container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../../../dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
